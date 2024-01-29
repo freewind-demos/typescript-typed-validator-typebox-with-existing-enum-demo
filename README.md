@@ -1,18 +1,9 @@
-TypeScript Hello World Demo
+TypeScript Typed Validator typebox with Existing Enum Demo
 ===========================
+
+对本地已有Enum支持比较好，直接 `Type.Enum(SomeEnum)`
 
 ```
 npm install
-npm run demo
+npm start
 ```
-
-Note:
-
-`esModuleInterop` is recommended to set to `true`,
-since we can have consistent importing syntax with babel,
-always use:
-
-```
-import some from 'some'
-```
-
